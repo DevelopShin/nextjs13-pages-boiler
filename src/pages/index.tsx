@@ -15,17 +15,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${inter.className}`}>
-        <S>
-          <ThemeToggle /> main index
-        </S>
-        <div tw="bg-primary border border-gray-600 dark:border-gray-100 m-2 p-2 ">
+        <Style>
+          <ThemeToggle />
+        </Style>
+        <div
+          tw="bg-primary border border-gray-600 dark:border-gray-100 "
+          className="m-2 p-20" //margin 2px padding 20px
+        >
           custom tailwind primary color
         </div>
       </main>
     </>
   );
 }
-const S = tw.div` 
+const Style = tw.div` 
 	bg-gradient-to-r
 	from-violet-500 to-fuchsia-50
 	rounded-sm
