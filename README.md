@@ -14,7 +14,7 @@ npm run dev
 - tailwindcss + styledComponents + twin.macro
 - dark toggle
 - swc build
-- tw, css, styled, className 을 통해 스타일링 가능
+- tw, css, styled, className 을 사용해 스타일링 가능
 
 ```js
 export default function Home() {
