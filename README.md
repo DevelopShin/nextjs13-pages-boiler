@@ -1,20 +1,20 @@
 $ start
 
 ```js
-yarn add
+yarn install
 yarn dev
 
-npm i
+npm install
 npm run dev
 ```
 
 ### Nextjs boiler template
 
-- next.js v 13 page route version
-- tailwindcss + styledComponents + twin.macro
-- dark toggle
-- swc build
-- tw, css, styled, className 을 통해 스타일링 가능
+-   next.js v 13 page route version
+-   tailwindcss + styledComponents + twin.macro
+-   dark toggle
+-   swc build
+-   tw, css, styled, className 을 통해 스타일링 가능
 
 ```js
 export default function Home() {

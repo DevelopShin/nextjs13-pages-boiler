@@ -1,7 +1,7 @@
 // src/styles/GlobalStyles.tsx
-import React from "react";
-import { createGlobalStyle, css } from "styled-components";
-import tw, { theme, GlobalStyles as BaseStyles } from "twin.macro";
+import React from 'react';
+import { createGlobalStyle, css } from 'styled-components';
+import tw, { GlobalStyles as BaseStyles, theme } from 'twin.macro';
 
 // src/styles/default.css in css default properties
 const CustomStyles = createGlobalStyle`
@@ -12,11 +12,13 @@ const CustomStyles = createGlobalStyle`
 
 `;
 
-const GlobalStyles = () => (
-  <>
-    <BaseStyles />
-    <CustomStyles />
-  </>
-);
+function GlobalStyles() {
+	return (
+		<>
+			<BaseStyles />
+			<CustomStyles />
+		</>
+	);
+}
 
 export default GlobalStyles;

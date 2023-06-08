@@ -3,26 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background: #fff;
-  --text-color: #000;
-  --primary: blue;
+	--background: #fff;
+	--text-color: #000;
+	--primary: blue;
 }
-[class="dark"] {
-  --background: #000;
-  --text-color: #fff;
-  --primary: blue;
+[class='dark'] {
+	--background: #000;
+	--text-color: #fff;
+	--primary: blue;
 }
 
 html,
 body,
 #__next {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
 body {
-  color: var(--text-color);
-  background-color: var(--background);
+	color: var(--text-color);
+	background-color: var(--background);
 }
